@@ -28,6 +28,17 @@ body {
     border-radius: 10px;
     padding: 5px;
   }
+  .disable_button{
+    margin-top: 10px;
+    font-size: 12px;
+    background-color: rgba(157, 220, 250, 0.671);
+    color: black;
+    border: 0;
+    font-weight:400;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left : 80px;
+  }
   
   ul {
     margin-top: 10px;
