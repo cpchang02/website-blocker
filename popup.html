@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blocking Extension Popup</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div id="blockedSites" class="content">
+
+    <div class= "header">
+      <h1>Website Blocker</h1>
+    </div>
+    <div class = "block-UI">
+      <button class = "block-button" id="addCurrentTabButton">Block</button>
+      <h4> Blocked:</h4>
+      <div class = "list-container">
+        <ul id="blockedWebsitesList"></ul>
+      </div>
+      <button class="buttons" id="clearBlockedWebsitesButton">Clear</button>
+      <button class= "buttons" id="toggleBlockingButton">Enable Blocking</button>
+    </div>
+    
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
